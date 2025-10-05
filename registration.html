@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Food Registration</title>
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Student Food Registration</h2>
+    <form action="mailto:vijaisree18@gmail.com" method="post">
+      <label>Student Name:</label>
+      <input type="text" name="name" maxlength="25" required>
+
+      <label>Email ID:</label>
+      <input type="text" name="mail" maxlength="25" required>
+
+      <label>Phone Number:</label>
+      <input type="text" name="number" maxlength="10" required>
+
+      <label>Department:</label>
+      <select name="Departments" required>
+        <option>TAMIL</option>
+        <option>ENGLISH</option>
+        <option>MATHEMATICS</option>
+        <option>PHYSICS</option>
+        <option>CHEMISTRY</option>
+        <option>COMPUTER SCIENCE</option>
+        <option>BOTANY</option>
+        <option>ZOOLOGY</option>
+        <option>COMMERCE</option>
+        <option>GEOGRAPHY</option>
+        <option>ECONOMICS</option>
+        <option>HISTORY</option>
+      </select>
+
+      <label>UG/PG:</label>
+      <input type="radio" name="course" value="UG"> UG
+      <input type="radio" name="course" value="PG"> PG
+
+      <label>Year:</label>
+      <input type="checkbox" name="year" value="I"> I Year
+      <input type="checkbox" name="year" value="II"> II Year
+      <input type="checkbox" name="year" value="III"> III Year
+
+      <label>Shift:</label>
+      <input type="radio" name="shift" value="Shift 1"> Shift 1
+      <input type="radio" name="shift" value="Shift 2"> Shift 2
+
+      <label>Medium:</label>
+      <input type="radio" name="medium" value="T/M"> Tamil Medium
+      <input type="radio" name="medium" value="E/M"> English Medium
+
+      <label>Food Preference:</label>
+      <select name="Food_Items" required>
+        <option>Pulav Rice</option>
+        <option>Curd Rice</option>
+        <option>Lemon Rice</option>
+        <option>Tomato Rice</option>
+      </select>
+
+      <div class="btn">
+        <input type="submit" value="Submit">
+        <input type="reset" value="Clear">
+      </div>
+    </form>
+  </div>
+</body>
+</html>
